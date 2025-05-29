@@ -1,4 +1,4 @@
-import * as log from '@std/log';
+import * as log from 'jsr:@std/log';
 import { stderr } from './io/standard_io.ts';
 
 const loggerName = 'app-store-connect';

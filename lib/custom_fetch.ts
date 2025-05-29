@@ -1,6 +1,6 @@
-import { delay } from '@std/async';
-import { logger } from './logger.ts';
+import { delay } from 'jsr:@std/async';
 import { bearerToken } from './auth.ts';
+import { logger } from './logger.ts';
 
 export function customFetchOf(
   auth: { issuerId: string; keyId: string; privateKey: string },
